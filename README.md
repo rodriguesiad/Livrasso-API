@@ -16,7 +16,7 @@
 
 - **Avaliações de Livros**: Avalie livros com estrelas, criando um relacionamento com o livro e o usuário.
 
-- **Desativar/Ativar Entidades**: Para livros, usuários e editoras, há funcionalidades que permitem desativar ou ativar as entidades de forma simples.
+- **Cadastro de Usuários**: Cadastre um usuário para ser associado a uma resenha ou uma avaliação.
 
 ### API RESTful
 
@@ -66,6 +66,14 @@ A API foi estruturada para fornecer acesso aos seguintes recursos:
   - `GET /api/avaliacoesestrelas/{id}` - Retorna os detalhes de uma avaliação de estrela específica.
   - `GET /api/avaliacoesestrelas/livro/{livroId}` - Retorna todas as avaliação de um livro.
   - `POST /api/avaliacoesestrelas` - Cria uma nova avaliação de estrelas.
+ 
+ - **Usuários**
+  - `GET /api/usuarios` - Lista todos os usuários cadastrados.
+  - `GET /api/usuarios/{id}` - Retorna os detalhes de um usuário específico.
+  - `POST /api/usuarios` - Cria um novo usuário.
+  - `PUT /api/usuarios/{id}` - Atualiza os dados de um usuário existente.
+  - `DELETE /api/usuarios/{id}` - Deleta um usuário.
+
 
 ## Tecnologias Utilizadas
 
