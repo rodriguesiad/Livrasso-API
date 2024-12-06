@@ -1,6 +1,6 @@
-# Livrasso - API
+# Livraço - API
 
-**Livrasso - API** é uma aplicação RESTful desenvolvida com .NET Core para fornecer funcionalidades relacionadas à gestão de livros, autores, editoras, categorias, resenhas e avaliações de livros. A API segue a estrutura da aplicação do repositório https://github.com/rodriguesiad/Livrasso, com a diferença de que a autenticação e o login são opcionais e o banco de dados é implementado com o padrão Singleton, armazenando os dados na memória.
+**Livraço - API** é uma aplicação RESTful desenvolvida com .NET Core para fornecer funcionalidades relacionadas à gestão de livros, autores, editoras, categorias, resenhas e avaliações de livros. A API segue a estrutura da aplicação do repositório https://github.com/rodriguesiad/Livrasso, com a diferença de que a autenticação e o login são opcionais e o banco de dados é implementado com o padrão Singleton, armazenando os dados na memória.
 
 ## Funcionalidades Principais
 
