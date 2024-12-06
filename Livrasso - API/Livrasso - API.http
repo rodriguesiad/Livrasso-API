@@ -1,0 +1,6 @@
+@Livrasso___API_HostAddress = http://localhost:5210
+
+GET {{Livrasso___API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
